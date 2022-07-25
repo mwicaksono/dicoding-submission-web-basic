@@ -59,8 +59,32 @@ nav ul li {
     background-color: #0D9488;
 }
 
+#main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#content {
+    background-color: red;
+}
+
+aside {
+    background-color: yellow;
+}
+
+footer {
+    text-align: center;
+    background-color: #151b24;
+    padding: 0.2rem;
+    color: #fff;
+}
+
 @media (max-width:48rem) {
     nav {
+        display: none;
+    }
+
+    #hero img {
         display: none;
     }
 }
