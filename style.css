@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D9488;
+    padding: 0.1rem 0;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+#main-logo p {
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+#hero {
+    min-height: 20rem;
+    background-color: #1E293B;
+    margin: 0;
+    padding: 3rem 6rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#hero-content p {
+    font-size: 1.7rem;
+}
+
+#hero-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #0D9488;
+}
+
+@media (max-width:48rem) {
+    nav {
+        display: none;
+    }
+}
