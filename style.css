@@ -18,7 +18,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     font-weight: 600;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 nav ul li {
@@ -28,35 +28,52 @@ nav ul li {
 #main-logo p {
     font-family: 'Righteous', sans-serif;
     font-size: 1.5rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    margin: 0.5rem 1rem;
 }
 
 #hero {
     min-height: 20rem;
     background-color: #1E293B;
     margin: 0;
-    padding: 3rem 6rem;
+    padding: 1rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
 }
 
+#hero img {
+    padding: 1rem;
+    margin: 2rem 1rem;
+}
+
+#hero-content {
+    padding: 0 1rem;
+    margin: 1rem 2rem;
+}
+
 #hero-content h1 {
     font-size: 3rem;
     font-weight: 800;
+    margin: 0;
 }
 
 #hero-content p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
 }
 
 #hero-links a {
     text-decoration: none;
     color: #fff;
-    margin: 0.5rem;
-    padding: 1rem;
+    margin: 0.4rem;
+    padding: 0.75rem 1rem;
     border-radius: 0.5rem;
     background-color: #0D9488;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
 }
 
 #main-content {
