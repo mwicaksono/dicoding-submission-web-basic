@@ -103,21 +103,27 @@ aside {
 
 #biodata {
     border-radius: 0.5rem;
-    background-color: #E2E8F0;
+    background-color: #1E293B;
     margin: 0 1rem;
+    color: #CBD5E1;
     text-align: center;
 }
 
 #biodata h3 {
     padding: 0.5rem 0;
     margin: 0;
-    color: #334155;
+    color: #fff;
 }
 
 #biodata ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+#biodata li {
+    margin: 0;
+    padding: 0.5rem 0;
 }
 
 #biodata img {
