@@ -35,11 +35,12 @@ nav ul li {
 #hero {
     min-height: 20rem;
     background-color: #1E293B;
-    margin: 0;
-    padding: 1rem;
+
+    padding: 0 1rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
+
 }
 
 #hero img {
@@ -152,4 +153,15 @@ footer {
         display: none;
     }
 
+    #main-content {
+
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media (min-width:87.5rem) {
+    #hero {
+        padding: 0 12rem;
+    }
 }
