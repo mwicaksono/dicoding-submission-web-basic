@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0D9488;
+    background-color: #134E4A;
     padding: 0.1rem 0;
     color: #fff;
 }
@@ -21,8 +21,19 @@ nav ul {
     padding: 0 2rem;
 }
 
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 nav ul li {
-    margin-right: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li:hover {
+    background-color: #0F766E;
+    border-radius: 8px;
 }
 
 #main-logo p {
@@ -52,6 +63,7 @@ nav ul li {
     padding: 0 1rem;
     margin: 1rem 2rem;
     display: flex;
+    width: 50rem;
     flex-direction: column;
     justify-content: center;
 }
@@ -61,24 +73,34 @@ nav ul li {
     font-weight: 800;
     letter-spacing: -0.2rem;
     margin: 0;
+    color: #F3F4F6;
 }
 
 #hero-content p {
     font-size: 1.5rem;
     font-weight: 300;
-    margin: 1rem 0;
+    margin: 0;
+    padding: 0;
+}
+
+#hero-links {
+    margin-top: 2rem;
 }
 
 #hero-links a {
     text-decoration: none;
     color: #fff;
-    margin: 0.4rem;
+    margin: 0.7rem 0.4rem;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
     background-color: #0D9488;
     font-size: 1rem;
-    display: block;
     text-align: center;
+}
+
+#hero-links a:nth-child(2) {
+    background-color: #203B48;
+    outline: 0.1rem solid;
 }
 
 #main-content {
@@ -168,6 +190,6 @@ footer {
 
 @media (min-width:87.5rem) {
     #hero {
-        padding: 0 12rem;
+        padding: 0.3rem 12rem;
     }
 }
